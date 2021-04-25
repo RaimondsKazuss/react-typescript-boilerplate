@@ -20,7 +20,7 @@
     "downlevelIteration": true,
     "rootDirs": [
       ".",
-      "./src/app",
+      "./src/components/App",
       "./node_modules"
     ],
     "paths": {
