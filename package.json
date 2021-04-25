@@ -1,0 +1,43 @@
+{
+  "name": "react-typescript-boilerplate",
+  "version": "0.1.0",
+  "description": "My personal boilerplate for starting new React projects from scratch.",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=development --config ./webpack.config.dev.js",
+    "start": "webpack serve --mode=development --config ./webpack.config.dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaimondsKazuss/react-typescript-boilerplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RaimondsKazuss/react-typescript-boilerplate/issues"
+  },
+  "homepage": "https://github.com/RaimondsKazuss/react-typescript-boilerplate#readme",
+  "devDependencies": {
+    "@types/react": "17.0.3",
+    "@types/react-dom": "17.0.3",
+    "file-loader": "6.2.0",
+    "html-webpack-plugin": "5.3.1",
+    "ts-loader": "9.1.1",
+    "typescript": "4.2.4",
+    "webpack": "5.35.1",
+    "webpack-cli": "4.6.0",
+    "webpack-dev-server": "3.11.2"
+  },
+  "dependencies": {
+    "@babel/core": "7.13.16",
+    "@babel/preset-env": "7.13.15",
+    "@babel/preset-react": "7.13.13",
+    "babel-loader": "8.2.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-router-dom": "5.2.0",
+    "styled-components": "5.2.3"
+  }
+}
