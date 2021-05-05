@@ -6,4 +6,4 @@ Setup:
 1) run
 `npm install`
 2) open
-`http://localhost:9000/`
+`http://localhost:6700/`
