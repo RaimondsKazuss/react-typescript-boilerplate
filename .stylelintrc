@@ -1,0 +1,9 @@
+{
+  "plugins": [
+    "stylelint-prettier"
+  ],
+  "extends": "stylelint-config-styled-components",
+  "rules": {
+    "unit-allowed-list": ["rem", "%", "deg", "s", "vh", "vw"]
+  }
+}

@@ -1,0 +1,84 @@
+{
+    "env": {
+        "browser": true,
+        "es2020": true,
+        "jest": true
+    },
+    "extends": [
+        "plugin:react/recommended",
+        "airbnb",
+        "prettier"
+    ],
+    "globals": {
+        "JSX": "writable",
+        "Locale": "writable",
+        "RequestInit": "writable",
+        "ILiveChatNowSDK": "writable"
+    },
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 11,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react",
+        "@typescript-eslint",
+        "prettier"
+    ],
+    "settings": {
+        "import/resolver": {
+            "node": {
+                "extensions": [".js", ".jsx", ".ts", ".tsx", "json"]
+            },
+            "alias": {
+                "map": [
+                    ["core", "./src/core/"],
+                    ["features", "./src/features/"],
+                    ["components", "./src/components/"],
+                    ["pages", "./src/pages/"],
+                    ["assets", "./src/assets/"],
+                    ["tests", "./src/tests/"]
+                ],
+                "extensions": [".js", ".jsx", ".ts", ".tsx", "json"]
+            }
+        }
+    },
+    "rules": {
+        "no-unused-expressions": "off",
+        "import/prefer-default-export": "off",
+        "prettier/prettier": "error",
+        "react/prop-types": 0,
+        "react/jsx-props-no-spreading": "off",
+        "react/jsx-filename-extension": [1, { "extensions": [".tsx", ".ts"] }],
+        "import/extensions": [
+            "error",
+            "ignorePackages",
+            {
+                "js": "never",
+                "jsx": "never",
+                "ts": "never",
+                "tsx": "never"
+            }
+        ],
+        "react/button-has-type": 0,
+        "@typescript-eslint/no-explicit-any": 2,
+        "@typescript-eslint/no-unused-vars": ["error"],
+        "@typescript-eslint/explicit-function-return-type": ["error"],
+        "import/no-extraneous-dependencies": [
+            "error",
+            {
+                "devDependencies": true,
+                "peerDependencies": true,
+                "optionalDependencies": false
+            }
+        ],
+        "no-use-before-define": "off",
+        "@typescript-eslint/no-use-before-define": ["error"],
+        "no-shadow": "off",
+        "@typescript-eslint/no-shadow": ["error"],
+        "arrow-body-style": ["off", "as-needed"]
+    }
+}
