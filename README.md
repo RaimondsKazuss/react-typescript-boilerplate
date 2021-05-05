@@ -1,3 +1,9 @@
 # WIP: React Typescript boilerplate
 
-### My personal boilerplate for starting new React projects from scratch. At the moment this repo doesn't have any testing setup.
+### My personal boilerplate for starting new React projects from scratch. At the moment this repo is not set up for running tests.
+
+Setup:
+1) run
+`npm install`
+2) open
+`http://localhost:9000/`
