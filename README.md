@@ -5,5 +5,5 @@
 Setup:
 1) run
 `npm install`
-2) open
-`http://localhost:6700/`
+2) run
+`npm run start`
